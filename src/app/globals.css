@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 43% 97%;
+
+    --foreground: 0 0% {
+      12%
+    }
+
+    ;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 12%;
+    --primary: 42 58% 55%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 30 20% 92%;
+    --secondary-foreground: 0 0% 12%;
+    --muted: 30 20% 92%;
+    --muted-foreground: 26 9% 45%;
+    --accent: 42 58% 55%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 42 58% 55%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 0 0% 8%;
+    --foreground: 30 43% 94%;
+    --card: 0 0% 10%;
+    --card-foreground: 30 43% 94%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 30 43% 94%;
+    --primary: 42 58% 55%;
+    --primary-foreground: 0 0% 12%;
+    --secondary: 26 9% 15%;
+    --secondary-foreground: 30 43% 94%;
+    --muted: 26 9% 15%;
+    --muted-foreground: 26 9% 55%;
+    --accent: 42 58% 55%;
+    --accent-foreground: 0 0% 12%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+    --border: 26 9% 18%;
+    --input: 26 9% 18%;
+    --ring: 42 58% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .font-headline {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-body {
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 2rem));
+    }
+  }
+
+  .animate-scroll {
+    animation: scroll 40s linear infinite;
+  }
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  @keyframes morph {
+
+    0%,
+    100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+  }
+
+  .animate-morph {
+    animation: morph 8s ease-in-out infinite;
+  }
+
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 25s linear infinite;
+  }
+
+  @keyframes glitter {
+
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: 0.7;
+      transform: scale(1.2) rotate(10deg);
+    }
+  }
+
+  .animate-glitter {
+    animation: glitter 2.5s ease-in-out infinite;
+  }
+}
+
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-headline;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}

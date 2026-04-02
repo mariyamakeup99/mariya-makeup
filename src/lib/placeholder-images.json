@@ -1,0 +1,178 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-mariya",
+      "description": "Professional portrait of Mariya, the makeup artist.",
+      "imageUrl": "https://images.unsplash.com/photo-1621691553102-66d4ecdb1be2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWtldXAlMjBhcnRpc3R8ZW58MHx8fHwxNzY5ODUzMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "makeup artist"
+    },
+    {
+      "id": "bridal-1",
+      "description": "Elegant bride with a classic makeup look.",
+      "imageUrl": "/images/port1.JPG",
+      "imageHint": "bride portrait"
+    },
+    {
+      "id": "bridal-2",
+      "description": "Smiling bride with natural makeup.",
+      "imageUrl": "/images/port1.JPG",
+      "imageHint": "happy bride"
+    },
+    {
+      "id": "bridal-3",
+      "description": "Bride with intricate hair and makeup.",
+      "imageUrl": "/images/port1.JPG",
+      "imageHint": "bridal beauty"
+    },
+    {
+      "id": "bridal-4",
+      "description": "A close-up shot of bridal eye makeup.",
+      "imageUrl": "https://images.unsplash.com/photo-1747823490854-7b3b833b5b06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxleWUlMjBtYWtldXB8ZW58MHx8fHwxNzY5ODUzMzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eye makeup"
+    },
+    {
+      "id": "commercial-1",
+      "description": "Model with a bold, editorial makeup look.",
+      "imageUrl": "https://images.unsplash.com/photo-1562572159-4efc207f5aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmYXNoaW9uJTIwbW9kZWx8ZW58MHx8fHwxNzY5ODM1NDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion model"
+    },
+    {
+      "id": "commercial-2",
+      "description": "Model with colorful, creative makeup for a photoshoot.",
+      "imageUrl": "https://images.unsplash.com/photo-1627921503284-dee513eaebb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcmVhdGl2ZSUyMG1ha2V1cHxlbnwwfHx8fDE3Njk4NTMzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "creative makeup"
+    },
+    {
+      "id": "commercial-3",
+      "description": "Studio shot of a model with dramatic makeup.",
+      "imageUrl": "https://images.unsplash.com/photo-1562151270-c7d22ceb586a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZGl0b3JpYWwlMjBmYXNoaW9ufGVufDB8fHx8MTc2OTg1MzM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "editorial fashion"
+    },
+    {
+      "id": "commercial-4",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "https://images.unsplash.com/photo-1758613654311-a9138846d52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYWtldXAlMjBzZXNzaW9ufGVufDB8fHx8MTc2OTg1MzM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "about-mariya",
+      "description": "Professional portrait of Mariya in her studio.",
+      "imageUrl": "/images/mariya.jpg",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "blog-1",
+      "description": "Featured image for a blog post about makeup tips.",
+      "imageUrl": "https://images.unsplash.com/photo-1704621354138-e124277356f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYWtldXAlMjBicnVzaGVzfGVufDB8fHx8MTc2OTgxMjEwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "makeup brushes"
+    },
+    {
+      "id": "blog-2",
+      "description": "Featured image for a blog post about bridal trends.",
+      "imageUrl": "https://images.unsplash.com/photo-1637616919953-5943e10bd4bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwZGV0YWlsc3xlbnwwfHx8fDE3Njk4MDQ2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding details"
+    },
+    {
+      "id": "blog-3",
+      "description": "Featured image for a blog post about skin prep.",
+      "imageUrl": "https://images.unsplash.com/photo-1631390179406-0bfe17e9f89d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxza2luY2FyZSUyMHByb2R1Y3RzfGVufDB8fHx8MTc2OTgwODM2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skincare products"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Photo of a happy client, Jane Doe.",
+      "imageUrl": "https://images.unsplash.com/photo-1598601065215-751bf8798a2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoYXBweSUyMHdvbWFufGVufDB8fHx8MTc2OTgxNTIyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy woman"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Photo of a happy client, Sarah K.",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY5ODExNjc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Photo of a happy client, Emily R.",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9maWxlJTIwcGljdHVyZXxlbnwwfHx8fDE3Njk4MjIzNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile picture"
+    },
+    {
+      "id": "social-1",
+      "description": "Thumbnail for an Instagram Reel.",
+      "imageUrl": "https://images.unsplash.com/photo-1506628270-0a15321e2d9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWtldXAlMjB2aWRlb3xlbnwwfHx8fDE3Njk4NTMzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "makeup video"
+    },
+    {
+      "id": "social-2",
+      "description": "Thumbnail for a YouTube video.",
+      "imageUrl": "https://images.unsplash.com/photo-1764777858430-a285d6d9cf50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmVhdXR5JTIwdHV0b3JpYWx8ZW58MHx8fHwxNzY5NzYxNTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beauty tutorial"
+    },
+    {
+      "id": "social-3",
+      "description": "Thumbnail for another social media video.",
+      "imageUrl": "https://images.unsplash.com/photo-1759882609529-0fa95c898794?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx2bG9nZ2VyJTIwc2V0dXB8ZW58MHx8fHwxNzY5ODUzMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vlogger setup"
+    },
+    {
+      "id": "logo-dummy-1",
+      "description": "Collaborator brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=Lulu+Celebrate",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "logo-dummy-2",
+      "description": "Collaborator brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=Seematti",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "logo-dummy-3",
+      "description": "Collaborator brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=Bhima",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "logo-dummy-4",
+      "description": "Collaborator brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=Milan+Designs",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "logo-dummy-5",
+      "description": "Collaborator brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=Susan+Lawrance",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "logo-dummy-6",
+      "description": "Makeup brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=Fenty+Beauty",
+      "imageHint": "makeup brand"
+    },
+    {
+      "id": "logo-dummy-7",
+      "description": "Makeup brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=Dior",
+      "imageHint": "makeup brand"
+    },
+    {
+      "id": "logo-dummy-8",
+      "description": "Makeup brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=NARS",
+      "imageHint": "makeup brand"
+    },
+    {
+      "id": "logo-dummy-9",
+      "description": "Makeup brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=MAC+Cosmetics",
+      "imageHint": "makeup brand"
+    },
+    {
+      "id": "logo-dummy-10",
+      "description": "Makeup brand logo",
+      "imageUrl": "https://placehold.co/200x80/png?text=Chanel",
+      "imageHint": "makeup brand"
+    }
+  ]
+}
