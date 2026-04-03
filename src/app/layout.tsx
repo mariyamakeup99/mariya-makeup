@@ -6,8 +6,15 @@ import { Footer } from '@/components/layout/footer';
 import { FloatingSocials } from '@/components/floating-socials';
 
 export const metadata: Metadata = {
-  title: 'Mariya Makeup Artistry',
-  description: 'Professional Bridal & Commercial Makeup Artist',
+  title: 'MAKEUP BY MARIYA | Luxury Bridal & Commercial Makeup Artist',
+  description: 'Mariya Makeup Artistry specializes in premium, customized bridal makeup, commercial photoshoots, and large-scale productions across Ernakulam, Thrissur, and Kerala.',
+  keywords: 'Bridal Makeup, Best Makeup Artist in Kerala, Ernakulam Makeup Artist, Commercial Makeup, Mariya Makeup',
+  openGraph: {
+    title: 'MAKEUP BY MARIYA',
+    description: 'Luxury Bridal & Commercial Makeup Services in Kerala',
+    siteName: 'Makeup by Mariya',
+    type: 'website',
+  },
   icons: {
     icon: '/favicon.ico',
   },

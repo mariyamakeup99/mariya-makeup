@@ -12,7 +12,7 @@ export default function ContactPage() {
         {/* ✅ Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/port3.JPG"
+            src="/bg1.webp"
             alt="Contact Background"
             fill
             priority
@@ -90,10 +90,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-lg">Call / WhatsApp</h3>
                     <a
-                      href="tel:1234567890"
+                      href="tel:+918136932606"
                       className="text-muted-foreground hover:text-primary transition text-lg"
                     >
-                      +91 12345 67890
+                      +91 81369 32606
                     </a>
                   </div>
                 </div>
@@ -106,10 +106,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-lg">Email</h3>
                     <a
-                      href="mailto:hello@mariya.com"
+                      href="mailto:makeupbymariya.in@gmail.com"
                       className="text-muted-foreground hover:text-primary transition text-lg"
                     >
-                      hello@mariya.com
+                      makeupbymariya.in@gmail.com
                     </a>
                   </div>
                 </div>
@@ -176,7 +176,7 @@ export default function ContactPage() {
             </p>
 
             <a
-              href="tel:1234567890"
+              href="https://wa.me/918136932606"
               className="inline-block mt-6 px-8 py-3 rounded-full bg-primary text-white font-medium shadow-lg hover:scale-105 transition"
             >
               Book Now

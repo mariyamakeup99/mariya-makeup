@@ -9,11 +9,11 @@ import { Separator } from "@/components/ui/separator";
 interface Brand {
   name: string;
   description: string;
+  logo: string;
 }
 
 interface StackedBrandsProps {
   brands: Brand[];
-  brandLogos: string[];
 }
 
 const StackedCard = ({
@@ -84,7 +84,7 @@ const StackedCard = ({
   );
 };
 
-export default function StackedBrandsSection({ brands, brandLogos }: StackedBrandsProps) {
+export default function StackedBrandsSection({ brands }: StackedBrandsProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -104,7 +104,7 @@ export default function StackedBrandsSection({ brands, brandLogos }: StackedBran
           <StackedCard
             key={brand.name}
             brand={brand}
-            logo={brandLogos[i % brandLogos.length]}
+            logo={brand.logo}
             index={i}
             total={brands.length}
             progress={scrollYProgress}

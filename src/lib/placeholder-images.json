@@ -3,55 +3,131 @@
     {
       "id": "hero-mariya",
       "description": "Professional portrait of Mariya, the makeup artist.",
-      "imageUrl": "https://images.unsplash.com/photo-1621691553102-66d4ecdb1be2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYWtldXAlMjBhcnRpc3R8ZW58MHx8fHwxNzY5ODUzMzc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/hero.webp",
       "imageHint": "makeup artist"
     },
     {
       "id": "bridal-1",
       "description": "Elegant bride with a classic makeup look.",
-      "imageUrl": "/images/port1.JPG",
+      "imageUrl": "/images/bridal/bride-look.webp",
       "imageHint": "bride portrait"
     },
     {
       "id": "bridal-2",
       "description": "Smiling bride with natural makeup.",
-      "imageUrl": "/images/port1.JPG",
+      "imageUrl": "/images/bridal/bride1.webp",
       "imageHint": "happy bride"
     },
     {
       "id": "bridal-3",
       "description": "Bride with intricate hair and makeup.",
-      "imageUrl": "/images/port1.JPG",
+      "imageUrl": "/images/bridal/bride2.webp",
       "imageHint": "bridal beauty"
     },
     {
       "id": "bridal-4",
       "description": "A close-up shot of bridal eye makeup.",
-      "imageUrl": "https://images.unsplash.com/photo-1747823490854-7b3b833b5b06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxleWUlMjBtYWtldXB8ZW58MHx8fHwxNzY5ODUzMzc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "eye makeup"
+"imageUrl": "/images/bridal/bride3.webp",      "imageHint": "eye makeup"
     },
+    {
+      "id": "bridal-5",
+      
+"imageUrl": "/images/bridal/bride4.webp",      "imageHint": "eye makeup"
+    },
+    {
+      "id": "bridal-6",
+      
+"imageUrl": "/images/bridal/bride5.webp",      "imageHint": "eye makeup"
+    },
+    
     {
       "id": "commercial-1",
       "description": "Model with a bold, editorial makeup look.",
-      "imageUrl": "https://images.unsplash.com/photo-1562572159-4efc207f5aff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmYXNoaW9uJTIwbW9kZWx8ZW58MHx8fHwxNzY5ODM1NDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/celebrities/ameya.webp", 
       "imageHint": "fashion model"
     },
     {
       "id": "commercial-2",
       "description": "Model with colorful, creative makeup for a photoshoot.",
-      "imageUrl": "https://images.unsplash.com/photo-1627921503284-dee513eaebb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcmVhdGl2ZSUyMG1ha2V1cHxlbnwwfHx8fDE3Njk4NTMzNzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+"imageUrl": "/images/commercial/amitha.webp", 
       "imageHint": "creative makeup"
     },
     {
       "id": "commercial-3",
       "description": "Studio shot of a model with dramatic makeup.",
-      "imageUrl": "https://images.unsplash.com/photo-1562151270-c7d22ceb586a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZGl0b3JpYWwlMjBmYXNoaW9ufGVufDB8fHx8MTc2OTg1MzM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+"imageUrl": "/images/commercial/resh.webp", 
       "imageHint": "editorial fashion"
     },
     {
       "id": "commercial-4",
       "description": "Behind the scenes of a media production makeup session.",
-      "imageUrl": "https://images.unsplash.com/photo-1758613654311-a9138846d52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYWtldXAlMjBzZXNzaW9ufGVufDB8fHx8MTc2OTg1MzM3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/celebrities/jisma.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-5",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/commercial/alda.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-6",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/commercial/amitha1.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-7",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/commercial/ameya.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-8",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/commercial/makeover.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-9",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/commercial/makeover2.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-10",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/commercial/makeover3.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-11",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/commercial/model.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-12",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/commercial/model1.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-13",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/celebrities/celeb.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-14",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/celebrities/celeb1.webp", 
+      "imageHint": "makeup session"
+    },
+    {
+      "id": "commercial-15",
+      "description": "Behind the scenes of a media production makeup session.",
+      "imageUrl": "/images/celebrities/jayasurya.webp", 
       "imageHint": "makeup session"
     },
     {

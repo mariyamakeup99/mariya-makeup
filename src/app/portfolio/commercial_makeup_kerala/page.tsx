@@ -28,9 +28,13 @@ import { Separator } from '@/components/ui/separator';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const brandLogos = [
-  '/logos/chanel.svg', '/logos/dior.svg', '/logos/fenty-beauty.svg',
-  '/logos/gucci.svg', '/logos/mac.svg', '/logos/nars.svg',
-  '/logos/sephora.svg', '/logos/ulta.svg'
+  '/logos/brands/Seematti-Typo-Black.svg',
+  '/logos/brands/Silppa-Logo-White.avif',
+  '/logos/brands/bhima_boy5.webp',
+  '/logos/brands/cropped-Susan-Lawrence_logo_One-line-01-4.avif',
+  '/logos/brands/logo00.avif',
+  '/logos/brands/milan_logo.svg',
+  '/logos/brands/parakkat_logo_58187224-1151-4bb3-81fa-f51e70cfd1b6.avif'
 ];
 
 const getInitials = (name: string) => name.split(' ').map(n => n[0]).join('').substring(0, 2).toUpperCase();
@@ -40,97 +44,121 @@ const brands = [
   {
     name: 'Lulu Celebrate',
     description: 'A premier ethnic fashion brand and retail store, under the Lulu group umbrella, specialized in exquisite wedding wear, sarees and traditional outfits. Known for blending expert craftsmanship with traditional weaving techniques and modern design aesthetics.',
+    logo: '/logos/brands/logo00.avif'
   },
   {
     name: 'Seematti',
     description: 'Established in 1910, a renowned historical textile retail chain in Kerala and a top bridal destination. Synonymous with quality silks, especially Kanchipuram sarees, and led by designer Beena Kannan.',
+    logo: '/logos/brands/Seematti-Typo-Black.svg'
   },
   {
     name: 'Bhima Jewellers',
     description: 'One of India’s oldest and most trusted jewellery retail brands with a legacy of purity and craft spanning nearly a century and over 100 showrooms across South India.',
+    logo: '/logos/brands/bhima_boy5.webp'
   },
   {
     name: 'Milan Design',
     description: 'Located in the heart of Kochi, focuses on ethnic wear such as bridal sarees, custom designed lehengas, and carefully crafted salwar sets using rich fabrics and traditional techniques.',
+    logo: '/logos/brands/milan_logo.svg'
   },
   {
     name: 'Susan Lawrance',
     description: 'Known for beautiful, feminine, and precisely crafted attires, specializing in simple and elegant dresses perfect for parties, showers, and special events.',
+    logo: '/logos/brands/cropped-Susan-Lawrence_logo_One-line-01-4.avif'
   },
   {
     name: 'T&M Signature',
     description: 'A premium luxury bridal couture boutique in Panampilly Nagar, Kochi, focusing on handcrafted, custom-made bridal wear blending modern designs with traditional Indian embroidery.',
+    logo: '/logos/chanel.svg'
   },
   {
     name: 'Rose',
     description: 'Celebrates timeless elegance, blending artistic vision with graceful design to inspire confidence and expressive style in every creation.',
+    logo: '/logos/dior.svg'
   },
   {
     name: 'Indra’s Designs',
     description: 'Blends creativity and elegance, crafting stylish, handcrafted pieces that celebrate individuality and artistic expression.',
+    logo: '/logos/gucci.svg'
   },
   {
     name: 'Silpaa',
     description: 'Creates artistic, handcrafted jewellery blending innovation and elegance, celebrating unique style and contemporary design.',
+    logo: '/logos/brands/Silppa-Logo-White.avif'
   },
   {
     name: 'Parakkat Jewels',
     description: 'Crafts exquisite, elegant jewellery that blends tradition and modern design, celebrating timeless beauty and fine craftsmanship.',
+    logo: '/logos/brands/parakkat_logo_58187224-1151-4bb3-81fa-f51e70cfd1b6.avif'
   },
 ];
 
 const influencers = [
   {
     name: 'Amitha Jobin',
-    description: 'Lifestyle and fashion influencer known for winning Best Lifestyle Content Creator and Best Fashion Content Creator Runner-Up titles, inspiring audiences with elegant, engaging content.'
+    description: 'Lifestyle and fashion influencer known for winning Best Lifestyle Content Creator and Best Fashion Content Creator Runner-Up titles, inspiring audiences with elegant, engaging content.',
+    image: '/images/commercial/amitha.webp'
   },
   {
     name: 'Alda Davis',
-    description: 'Dentist and fashion designer who creates lifestyle content, inspiring confidence, creative style, beauty, authentic engagement, and professional excellence online.'
+    description: 'Dentist and fashion designer who creates lifestyle content, inspiring confidence, creative style, beauty, authentic engagement, and professional excellence online.',
+    image: '/images/commercial/alda.webp'
   },
   {
     name: 'Maria Dominic',
-    description: 'Fashion and lifestyle influencer creating stylish, engaging content that inspires confidence, creativity, authentic expression, and modern personal style online.'
+    description: 'Fashion and lifestyle influencer creating stylish, engaging content that inspires confidence, creativity, authentic expression, and modern personal style online.',
+    image: '/images/commercial/mariya-dominic.jpg'
   },
   {
     name: 'Jisma Jiji Kizhakkarakattu',
-    description: 'Lifestyle and fashion influencer sharing creative content that inspires confidence, beauty, authenticity, and stylish personal expression online.'
+    description: 'Lifestyle and fashion influencer sharing creative content that inspires confidence, beauty, authenticity, and stylish personal expression online.',
+    image: '/images/celebrities/jisma.webp'
   },
   {
     name: 'Keep It Stylish by Ammu',
-    description: 'Professional stylist and fashion influencer creating trendy content that inspires confidence, beauty, and modern personal style.'
+    description: 'Professional stylist and fashion influencer creating trendy content that inspires confidence, beauty, and modern personal style.',
+    image: '/images/celebrities/ammu.jpg'
+
   },
   {
     name: 'Resh Sebu',
-    description: 'Model and lifestyle influencer creating stylish, engaging content that inspires confidence, beauty, personal style, and authentic expression online.'
+    description: 'Model and lifestyle influencer creating stylish, engaging content that inspires confidence, beauty, personal style, and authentic expression online.',
+    image: '/images/commercial/resh.webp'
   },
   {
     name: 'Veena Mukundan',
-    description: 'Artist and lifestyle creator sharing inspiring fashion, beauty, and creative content rooted in elegance, confidence, and personal expression.'
+    description: 'Artist and lifestyle creator sharing inspiring fashion, beauty, and creative content rooted in elegance, confidence, and personal expression.',
+    image: '/images/commercial/veena.jpg'
   },
   {
     name: 'Arya Menon',
-    description: 'Fashion and lifestyle creator inspiring audiences with bold style, authentic content, confident presence, and creative personal expression.'
+    description: 'Fashion and lifestyle creator inspiring audiences with bold style, authentic content, confident presence, and creative personal expression.',
+    image: '/images/celebrities/arya.jpg'
   },
   {
     name: 'Shwetha Poornima',
-    description: 'Fashion and lifestyle content creator known for her elegant style, confident presence, and strong digital influence.'
+    description: 'Fashion and lifestyle content creator known for her elegant style, confident presence, and strong digital influence.',
+   image: '/images/commercial/shwetha.jpg'
   },
   {
     name: 'Archita (Style With Archita)',
-    description: 'Fashion and style creator known for her chic looks, trend-setting outfits, and engaging social media presence.'
+    description: 'Fashion and style creator known for her chic looks, trend-setting outfits, and engaging social media presence.',
+   image: '/images/commercial/arch.jpg'
   },
   {
     name: 'Sreevidya Mullachery',
-    description: 'Fashion and lifestyle influencer known for her elegant style, creative content, and strong social media presence.'
+    description: 'Fashion and lifestyle influencer known for her elegant style, creative content, and strong social media presence.',
+    image: '/images/celebrities/sree.jpg'
   },
   {
     name: 'Abhi Bogatinovski',
-    description: 'Lifestyle creator and visual storyteller known for his engaging content, modern style, and vibrant personal brand.'
+    description: 'Lifestyle creator and visual storyteller known for his engaging content, modern style, and vibrant personal brand.',
+    image: '/images/celebrities/abhi.jpg'
   },
   {
     name: 'Kalyaanii R.S',
-    description: 'Fashion and lifestyle influencer known for her chic aesthetics, engaging content, and strong personal style.'
+    description: 'Fashion and lifestyle influencer known for her chic aesthetics, engaging content, and strong personal style.',
+    image: '/images/commercial/kalyani.jpg'
   },
 ];
 
@@ -138,42 +166,52 @@ const celebrities = [
   {
     name: 'Jayasurya',
     bio: 'Indian actor, producer, and singer with over 100 films. Winner of National and Kerala State Film Awards. Known for versatile roles and upcoming projects like Kathanar - The Wild Sorcerer.',
+    image: '/images/celebrities/jaya.jpg'
   },
   {
     name: 'Aparna Balamurali',
     bio: 'National Film Award-winning actress and playback singer known for Maheshinte Prathikaaram and Soorarai Pottru.',
+    image: '/images/commercial/bala.jpg'
   },
   {
     name: 'Aparna Das',
     bio: 'Filmfare Critics Award-winning actress for Dada (2023), known for her work in Malayalam and Tamil cinema including Beast (2022).',
+    image: '/images/celebrities/aparna.jpg'
   },
   {
     name: 'Deepa Thomas',
     bio: 'Actress and entrepreneur known for Home (2021) and the upcoming Rao Bahadur (2026). Founder of a multi-million dollar textile enterprise.',
+    image: '/images/port2.JPG'
   },
   {
     name: 'Anarkali Marikar',
     bio: 'Prominent Malayalam film actress known for her debut in Aanandam (2016) and the upcoming film Vala.',
+    image: '/images/celebrities/anarkali.jpg'
   },
   {
     name: 'Arjun Syam Gopan',
     bio: 'Model, former athlete, and actor. First runner-up of Bigg Boss Malayalam Season 6, known for his debut in Mirage (2025).',
+    image: '/images/commercial/arjun.jpg'
   },
   {
     name: 'Wafa Khadija Rahman',
     bio: 'Actress, model, and lawyer known for Varane Avashyamund (2020) and Madhuram Jeevamruthabindu (2025).',
+    image: '/images/celebrities/wafa.jpg'
   },
   {
     name: 'Aparna Vinod',
     bio: 'Actress known for Njan Ninnodu Koodeyund and her role in the Tamil film Kohinoor.',
+    image: '/images/celebrities/aparna-vinod.jpg'
   },
   {
     name: 'Gowry Lekshmi',
     bio: 'Composer, singer, and music producer known for Godha and her independent music video Thoni.',
+    image: '/images/commercial/gowry.jpg'
   },
   {
     name: 'Mridula Varier',
     bio: 'South Indian playback singer and Kerala State Award winner (2023), active across Malayalam, Tamil, Telugu, and Kannada cinema.',
+   image: '/images/commercial/mridula.jpg'
   },
 ];
 
@@ -188,7 +226,7 @@ export default function CommercialPortfolioPage() {
         {/* ✅ Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/port4.JPG"
+            src="/bg1.webp"
             alt="Contact Background"
             fill
             priority
@@ -200,9 +238,6 @@ export default function CommercialPortfolioPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background/90" />
 
           {/* ✅ Subtle Luxury Light Effect */}
-          <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.15),transparent_60%)]" />
-          </div>
 
           {/* ✅ Bottom Fade */}
 
@@ -225,19 +260,23 @@ export default function CommercialPortfolioPage() {
             <h1 className="font-headline text-6xl md:text-7xl lg:text-8xl font-bold leading-tight text-white drop-shadow-lg">
               Commercial <span className="text-primary italic drop-shadow-md">Portfolio</span>
             </h1>
-            <div className="max-w-4xl space-y-6 mt-4">
-              <p className="text-2xl text-white/90 font-light leading-relaxed">
-                We offer professional commercial makeup services for media, brands, and public personalities.
-                With more than <span className="text-white font-semibold">10 years of experience</span>, we have worked on professional projects ranging from photoshoots and advertisements to large-scale media productions.
-              </p>
-            </div>
+
           </div>
         </div>
       </section>
 
       {/* 🌟 MAIN CONTENT */}
       <div className="relative z-10 flex-grow flex flex-col">
-
+        <div className="mx-6 space-y-6 mt-4">
+          <p className="text-2xl text-black/70 italic font-medium leading-relaxed tracking-wide md:mx-6 mx-2">
+            We provide <span className="text-primary font-semibold">professional makeup services</span>
+            for brands, media, and public figures.
+            <br />
+            With over{" "}
+            <span className="text-primary font-bold">10 years of experience</span>,
+            we’ve worked on photoshoots, ads, and large-scale productions.
+          </p>
+        </div>
         {/* Services List */}
         <section className="relative py-16 md:py-24 bg-card/60">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center lg:text-left">
@@ -282,7 +321,7 @@ export default function CommercialPortfolioPage() {
                 100% { transform: translateX(calc(-50% - 12px)); }
               }
               .animate-seamless-marquee {
-                animation: seamless-marquee 40s linear infinite;
+                animation: seamless-marquee 20s linear infinite;
                 will-change: transform;
                 transform: translateZ(0);
                 backface-visibility: hidden;
@@ -380,7 +419,7 @@ export default function CommercialPortfolioPage() {
             </div>
 
             {/* Framer Motion Stacked Cards Animation */}
-            <StackedBrandsSection brands={brands} brandLogos={brandLogos} />
+            <StackedBrandsSection brands={brands} />
 
           </div>
         </section>
@@ -404,16 +443,16 @@ transition-transform duration-300
 md:hover:-translate-y-1"
                 >
                   {/* Image */}
-                  <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] overflow-hidden">
+                  <div className="relative w-full aspect-[4/5] overflow-hidden">
                     <Image
-                      src={randomImages[index % randomImages.length]}
+                      src={influencer.image}
                       alt={influencer.name}
                       fill
                       loading="lazy"
                       sizes="(max-width: 640px) 100vw,
          (max-width: 1024px) 50vw,
          33vw"
-                      className="object-cover object-center md:group-hover:scale-[1.03] transition-transform duration-500"
+                      className="object-cover object-top md:object-center md:group-hover:scale-[1.03] transition-transform duration-500"
                     />
                   </div>
                   {/* Content */}
@@ -463,16 +502,16 @@ md:hover:-translate-y-1"
                 >
 
                   {/* Image (Responsive FIXED) */}
-                  <div className="relative w-full aspect-[16/10] sm:aspect-[16/9] overflow-hidden">
+                  <div className="relative w-full aspect-[4/5] overflow-hidden">
                     <Image
-                      src={randomImages[index % randomImages.length]}
+                      src={celeb.image}
                       alt={celeb.name}
                       fill
                       loading="lazy"
                       sizes="(max-width: 640px) 100vw,
          (max-width: 1024px) 50vw,
          33vw"
-                      className="object-cover object-center md:group-hover:scale-[1.03] transition-transform duration-500"
+                      className="object-cover object-top md:object-center md:group-hover:scale-[1.03] transition-transform duration-500"
                     />
 
                     {/* Optional Gradient Overlay */}
@@ -502,14 +541,14 @@ md:hover:-translate-y-1"
         {/* CTA Section */}
         <section className="relative py-16 md:py-24 bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="p-8 md:p-20 rounded-[2.5rem] md:rounded-[4rem] text-center relative overflow-hidden group shadow-2xl bg-black">
+            <div className="max-w-5xl mx-auto rounded-[2.5rem] md:rounded-[4rem] bg-black p-8 md:p-24 text-center relative overflow-hidden shadow-2xl">
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
                 <Image
-                  src="/statbg.webp"
+                  src="/images/commercial/mariya-amitha.webp"
                   alt="Abstract flowing colors background"
                   fill
-                  className="object-cover opacity-60"
+                  className="object-cover opacity-040"
                   data-ai-hint="abstract flow"
                 />
                 <div className="absolute inset-0 bg-black/40" />

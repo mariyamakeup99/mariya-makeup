@@ -106,7 +106,7 @@ export function AboutSection() {
 
                   <div className="flex flex-wrap items-center gap-6 border-t border-border/50 pt-5">
                     <Link
-                      href="/portfolio/bridal"
+                      href="/portfolio/bridal_makeup_kerala"
                       className="text-foreground/70 hover:text-primary font-bold text-sm uppercase tracking-widest flex items-center gap-2 transition-colors group"
                     >
                       Bridal Gallery
@@ -114,7 +114,7 @@ export function AboutSection() {
                     </Link>
 
                     <Link
-                      href="/portfolio/commercial"
+                      href="/portfolio/commercial_makeup_kerala"
                       className="text-foreground/70 hover:text-primary font-bold text-sm uppercase tracking-widest flex items-center gap-2 transition-colors group"
                     >
                       Commercial Work

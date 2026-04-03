@@ -2,7 +2,8 @@ import Image from 'next/image';
 import { brandLogos } from '@/lib/data';
 
 export function LogoCloud() {
-  const extendedLogos = [...brandLogos, ...brandLogos];
+  // Multiply the base logos to ensure the track is very long
+  const infiniteLogos = [...brandLogos, ...brandLogos, ...brandLogos, ...brandLogos, ...brandLogos, ...brandLogos];
 
   return (
     <section className="bg-card py-16">
@@ -10,15 +11,30 @@ export function LogoCloud() {
         <h3 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground">
           Brands Mariya has collaborated with
         </h3>
+
+        <style>{`
+          @keyframes infinite-scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+          }
+          .animate-infinite-scroll {
+            animation: infinite-scroll 40s linear infinite;
+            will-change: transform;
+            transform: translateZ(0);
+          }
+        `}</style>
+
         <div className="mt-8 w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
-          <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 animate-scroll">
-            {extendedLogos.map((brand, index) => (
-              <li key={index} className="flex-shrink-0">
+          <ul className="flex items-center w-max animate-infinite-scroll">
+            {infiniteLogos.map((brand, index) => (
+              <li key={index} className="flex-shrink-0 mx-8">
                 <Image
                   src={brand.logo}
                   alt={`${brand.name} logo`}
                   width={120}
                   height={40}
+                  unoptimized
+                  loading="lazy"
                   className="h-10 w-auto"
                 />
               </li>

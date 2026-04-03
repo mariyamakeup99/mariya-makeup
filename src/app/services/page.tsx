@@ -11,13 +11,13 @@ const bridalStyles = [
     title: 'Christian Bridal Makeup',
     description: 'Christian bridal makeup focuses on elegance, soft glam and flawless skin. Mariya creates subtle yet radiant looks with perfect base makeup, defined eyes and stylish hairstyles that complement white gowns and church weddings.',
     features: ['Soft Glam Finish', 'Radiant Base', 'Elegant Hairstyling'],
-    imageId: 'bridal-2'
+    imageId: 'bridal-3'
   },
   {
     title: 'Hindu Bridal Makeup',
     description: 'Hindu bridal makeup prioritizes tradition, richness and cultural detailing. From bold eye makeup to perfectly contoured faces and traditional hairstyling, Mariya ensures an awesome bridal look that suits for temple or mandap weddings.',
     features: ['Traditional Bold Eyes', 'Structured Contouring', 'Mandap-Ready Glow'],
-    imageId: 'bridal-3'
+    imageId: 'bridal-2'
   },
   {
     title: 'Muslim Bridal Makeup',
@@ -40,8 +40,8 @@ const mainServices = [
     icon: Star,
     features: ['HD & Airbrush Options', 'Natural & Minimal Looks', 'Glam & Traditional Styles', 'Hairstyling & Draping', 'Waterproof Finish'],
     cta: 'Explore Bridal Gallery',
-    href: '/portfolio/bridal',
-    imageId: 'hero-mariya'
+    href: '/portfolio/bridal_makeup_kerala',
+    imageId: 'bridal-1'
   },
   {
     title: 'Commercial Makeup',
@@ -49,7 +49,7 @@ const mainServices = [
     icon: Video,
     features: ['Advertisement Shoots', 'Fashion Photoshoots', 'Brand Campaigns', 'Media Productions', 'Stage & Public Events'],
     cta: 'View Commercial Work',
-    href: '/portfolio/commercial',
+    href: '/portfolio/commercial_makeup_kerala',
     imageId: 'commercial-1'
   },
   {
@@ -59,7 +59,7 @@ const mainServices = [
     features: ['Stage Appearances', 'Public Functions', 'Editorial Shoots', 'On-site Touchups', 'High-Definition Finish'],
     cta: 'Contact for Booking',
     href: '/contact',
-    imageId: 'commercial-3'
+    imageId: 'commercial-12'
   }
 ];
 
@@ -94,7 +94,7 @@ export default function ServicesPage() {
         {/* ✅ Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/port1.jpg"
+            src="/bg1.webp"
             alt="Contact Background"
             fill
             priority
@@ -193,7 +193,7 @@ export default function ServicesPage() {
               <p className="mt-6 text-muted-foreground text-lg">Expertly tailored looks that respect cultural richness while adapting to modern beauty standards and camera needs.</p>
             </div>
             <Button asChild variant="outline" className="rounded-full border-primary text-primary hover:bg-primary/10 h-12 px-8">
-              <Link href="/portfolio/bridal">View All Bridal Styles</Link>
+              <Link href="/portfolio/bridal_makeup_kerala">View All Bridal Styles</Link>
             </Button>
           </div>
 
@@ -259,10 +259,10 @@ export default function ServicesPage() {
             {/* Background Image - Matching Homepage Stats */}
             <div className="absolute inset-0 z-0">
               <Image
-                src="/statbg.webp"
+                src="/images/commercial/mariya-amitha.webp"
                 alt="Abstract flowing colors background"
                 fill
-                className="object-cover opacity-60"
+                className="object-cover opacity-040"
                 data-ai-hint="abstract flow"
               />
               <div className="absolute inset-0 bg-black/40" />
@@ -280,7 +280,7 @@ export default function ServicesPage() {
                   <Link href="/contact">Book a Consultation</Link>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="rounded-full w-full sm:w-auto h-14 md:h-16 px-8 md:px-12 text-lg font-bold border-white text-white hover:bg-white/10 shadow-xl hover:scale-105 transition-all bg-transparent">
-                  <Link href="/portfolio/bridal">Explore Our Work</Link>
+                  <Link href="/portfolio/bridal_makeup_kerala">Explore Our Work</Link>
                 </Button>
               </div>
             </div>

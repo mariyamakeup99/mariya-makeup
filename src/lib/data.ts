@@ -15,7 +15,7 @@ export const navLinks = [
   { href: '/about', label: 'About' },
   { href: '/services', label: 'Services' },
   { href: '/blog', label: 'Blog' },
-  { href: '/products', label: 'Products' },
+  // { href: '/products', label: 'Products' },
   { href: '/contact', label: 'Contact' },
 ];
 
@@ -37,19 +37,21 @@ export const commercialPortfolio = [
   { id: 'commercial-2', image: getImage('commercial-2') },
   { id: 'commercial-3', image: getImage('commercial-3') },
   { id: 'commercial-4', image: getImage('commercial-4') },
+   { id: 'commercial-5', image: getImage('commercial-5') },
+  { id: 'commercial-6', image: getImage('commercial-6') },
+  { id: 'commercial-9', image: getImage('commercial-9') },
+  { id: 'commercial-8', image: getImage('commercial-8') },
+  
 ];
 
 export const brandLogos = [
-  { name: 'Lulu Celebrate', logo: getImage('logo-dummy-1').imageUrl },
-  { name: 'Seematti', logo: getImage('logo-dummy-2').imageUrl },
-  { name: 'Bhima', logo: getImage('logo-dummy-3').imageUrl },
-  { name: 'Milan designs', logo: getImage('logo-dummy-4').imageUrl },
-  { name: 'Susan Lawrance', logo: getImage('logo-dummy-5').imageUrl },
-  { name: 'T&M Signature', logo: getImage('logo-dummy-1').imageUrl },
-  { name: 'Rose story', logo: getImage('logo-dummy-2').imageUrl },
-  { name: 'Indras Designs', logo: getImage('logo-dummy-3').imageUrl },
-  { name: 'Silpaa', logo: getImage('logo-dummy-4').imageUrl },
-  { name: 'Parakkat Jewelry', logo: getImage('logo-dummy-5').imageUrl },
+  { name: 'Seematti', logo: '/logos/brands/Seematti-Typo-Black.svg' },
+  { name: 'Silppa', logo: '/logos/brands/Silppa-Logo-White.avif' },
+  { name: 'Bhima', logo: '/logos/brands/bhima_boy5.webp' },
+  { name: 'Susan Lawrence', logo: '/logos/brands/cropped-Susan-Lawrence_logo_One-line-01-4.avif' },
+  { name: 'Lulu Celebrate', logo: '/logos/brands/logo00.avif' },
+  { name: 'Milan designs', logo: '/logos/brands/milan_logo.svg' },
+  { name: 'Parakkat Jewelry', logo: '/logos/brands/parakkat_logo_58187224-1151-4bb3-81fa-f51e70cfd1b6.avif' },
 ];
 
 export const makeupBrandsList = [
@@ -184,19 +186,19 @@ export const socialVideos = [
   {
     id: 'social-1',
     platform: 'Instagram',
-    url: '#',
+    url: 'https://www.instagram.com/reel/C_vXjuToSqx/?igsh=eWJybjZubHdoMDY4',
     image: getImage('social-1'),
   },
   {
     id: 'social-2',
     platform: 'YouTube',
-    url: '#',
+    url: 'https://youtube.com/shorts/O_XpmJeczsU?si=RrhfoE5Sx-zpre48',
     image: getImage('social-2'),
   },
   {
     id: 'social-3',
-    platform: 'Instagram',
-    url: '#',
+    platform: 'Facebook',
+    url: 'https://www.facebook.com/share/p/1AuLQrtdKD/',
     image: getImage('social-3'),
   },
 ];

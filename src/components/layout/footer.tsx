@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Instagram, Youtube, Phone, Mail } from 'lucide-react';
+import { Instagram, Youtube, Phone, Mail, Facebook } from 'lucide-react';
 import { Logo } from '@/components/logo';
 import { navLinks } from '@/lib/data';
 
@@ -17,10 +17,13 @@ export function Footer() {
               Creating timeless beauty for your most memorable moments.
             </p>
             <div className="mt-6 flex gap-4">
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-muted-foreground transition-colors hover:text-primary">
+              <a href="https://www.instagram.com/makeup_by_mariyaaa?igsh=ZHJqcXVndjJ1eTc5" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-muted-foreground transition-colors hover:text-primary">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-muted-foreground transition-colors hover:text-primary">
+              <a href="https://www.facebook.com/share/18DfodRJJD/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-muted-foreground transition-colors hover:text-primary">
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a href="https://youtube.com/@makeupbymariya-youtube?si=LnaOMLiSTBN-_QiU" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-muted-foreground transition-colors hover:text-primary">
                 <Youtube className="h-5 w-5" />
               </a>
             </div>
@@ -45,12 +48,12 @@ export function Footer() {
             <h3 className="font-headline text-lg font-semibold">Portfolios</h3>
             <ul className="mt-4 space-y-2">
               <li>
-                <Link href="/portfolio/bridal" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                <Link href="/portfolio/bridal_makeup_kerala" className="text-sm text-muted-foreground transition-colors hover:text-primary">
                   Bridal Portfolio
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio/commercial" className="text-sm text-muted-foreground transition-colors hover:text-primary">
+                <Link href="/portfolio/commercial_makeup_kerala" className="text-sm text-muted-foreground transition-colors hover:text-primary">
                   Commercial Portfolio
                 </Link>
               </li>
@@ -68,11 +71,11 @@ export function Footer() {
             <ul className="mt-4 space-y-2">
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 text-accent" />
-                <span>123-456-7890</span>
+                <span>+91 81369 32606</span>
               </li>
               <li className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-accent" />
-                <span>hello@mariya.com</span>
+                <span>makeupbymariya.in@gmail.com</span>
               </li>
             </ul>
           </div>

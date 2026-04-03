@@ -150,7 +150,7 @@ export function PortfolioSection() {
             <PortfolioGallery items={bridalPortfolio} />
             <div className="mt-20 text-center">
               <Button asChild variant="outline" size="lg" className="rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-12 h-16 text-lg font-bold group shadow-xl hover:shadow-primary/20 transition-all">
-                <Link href="/portfolio/bridal" className="flex items-center gap-3">
+                <Link href="/portfolio/bridal_makeup_kerala" className="flex items-center gap-3">
                   Explore Full Bridal Gallery
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Link>
@@ -162,7 +162,7 @@ export function PortfolioSection() {
             <PortfolioGallery items={commercialPortfolio} />
             <div className="mt-20 text-center">
                <Button asChild variant="outline" size="lg" className="rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-12 h-16 text-lg font-bold group shadow-xl hover:shadow-primary/20 transition-all">
-                <Link href="/portfolio/commercial" className="flex items-center gap-3">
+                <Link href="/portfolio/commercial_makeup_kerala" className="flex items-center gap-3">
                   Explore Commercial Portfolio
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Link>

@@ -5,17 +5,17 @@ import { Instagram, Youtube, Facebook, MessageCircle, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const socialLinks = [
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Youtube, href: '#', label: 'YouTube' },
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: MessageCircle, href: '#', label: 'WhatsApp' },
+  { icon: Instagram, href: 'https://www.instagram.com/makeup_by_mariyaaa?igsh=ZHJqcXVndjJ1eTc5', label: 'Instagram' },
+  { icon: Youtube, href: 'https://youtube.com/@makeupbymariya-youtube?si=LnaOMLiSTBN-_QiU', label: 'YouTube' },
+  { icon: Facebook, href: 'https://www.facebook.com/share/18DfodRJJD/', label: 'Facebook' },
+  { icon: MessageCircle, href: 'https://wa.me/918136932606', label: 'WhatsApp' },
 ];
 
 export function FloatingSocials() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed bottom-8 left-4 z-50 flex flex-col-reverse items-center gap-4">
+    <div className="fixed bottom-8 right-4 z-50 flex flex-col-reverse items-center gap-4">
       {/* Trigger Button - Only this has a fully transparent background */}
       <button
         onClick={() => setIsOpen(!isOpen)}

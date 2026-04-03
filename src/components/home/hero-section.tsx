@@ -27,10 +27,10 @@ export function HeroSection() {
   }, []);
 
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Youtube, href: "#", label: "YouTube" },
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: MessageCircle, href: "#", label: "WhatsApp" },
+    { icon: Instagram, href: "https://www.instagram.com/makeup_by_mariyaaa?igsh=ZHJqcXVndjJ1eTc5", label: "Instagram" },
+    { icon: Youtube, href: "https://youtube.com/@makeupbymariya-youtube?si=LnaOMLiSTBN-_QiU", label: "YouTube" },
+    { icon: Facebook, href: "https://www.facebook.com/share/18DfodRJJD/", label: "Facebook" },
+    { icon: MessageCircle, href: "https://wa.me/918136932606", label: "WhatsApp" },
   ];
 
   return (
@@ -61,6 +61,8 @@ export function HeroSection() {
           <a
             key={social.label}
             href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white/60 hover:text-primary transition-transform duration-300 hover:scale-110"
           >
             <social.icon className="h-5 w-5" />
@@ -107,7 +109,7 @@ export function HeroSection() {
                 variant="outline"
                 className="w-full sm:w-64 rounded-full border-2 border-primary px-8 py-6 text-lg text-primary hover:bg-primary/10 transition-transform hover:scale-105"
               >
-                <Link href="/portfolio/bridal">View Portfolio</Link>
+                <Link href="/portfolio/bridal_makeup_kerala">View Portfolio</Link>
               </Button>
             </div>
 
@@ -117,6 +119,8 @@ export function HeroSection() {
                 <a
                   key={social.label}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white/60 hover:text-primary transition-colors"
                 >
                   <social.icon className="h-5 w-5" />
