@@ -7,10 +7,10 @@ import { FloatingSocials } from '@/components/floating-socials';
 import { WhatsAppCTA } from '@/components/whatsapp-cta';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://yourdomain.com'),
+  metadataBase: new URL('https://www.makeupbymariya.com'),
 
   title: {
-    default: 'Makeup by Mariya | Best Makeup Artist in Kochi',
+    default: 'Best Makeup Artist in Kochi | Makeup by Mariya',
     template: '%s | Makeup by Mariya',
   },
 
@@ -27,12 +27,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Best Makeup Artist in Kochi | Makeup by Mariya',
     description:
-      'Luxury bridal & commercial makeup artist in Kochi, Kerala. Book your appointment today.',
-    url: 'https://makeupbymariya.com',
+      'Luxury bridal & commercial makeup artist in Kochi, Kerala.',
+    url: 'https://www.makeupbymariya.com',
     siteName: 'Makeup by Mariya',
     images: [
       {
-        url: '/images/hero.webp', 
+        url: 'https://www.makeupbymariya.com/images/hero.webp',
         width: 1200,
         height: 630,
       },
@@ -41,11 +41,18 @@ export const metadata: Metadata = {
     type: 'website',
   },
 
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Makeup Artist in Kochi | Makeup by Mariya',
+    description:
+      'Luxury bridal & commercial makeup artist in Kochi, Kerala.',
+    images: ['https://www.makeupbymariya.com/images/hero.webp'],
+  },
+
   alternates: {
-    canonical: '/',
+    canonical: 'https://www.makeupbymariya.com',
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
