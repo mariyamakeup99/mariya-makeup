@@ -17,6 +17,7 @@ export function HeroSection() {
     (img) => img.id === "hero-mariya"
   );
 
+  const heroImage = heroImageDesktop?.imageUrl || "/hero.webp";
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {

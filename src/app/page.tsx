@@ -12,6 +12,17 @@ import { MakeupBrandsSection } from '@/components/home/makeup-brands-section';
 import { FAQSection } from '@/components/home/faq-section';
 import { WhyChooseSection } from '@/components/home/why-choose-section';
 import FloatingPortfolio from '@/components/home/floating-portfolio-section';
+import { InfinitePortfolio } from "@/components/ui/infinite-portfolio";
+import { commercialPortfolio } from "@/lib/data";
+// app/page.tsx
+
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Best Makeup Artist in Kochi for Bridal & Events",
+  description:
+    "Professional bridal makeup artist in Kochi offering HD, airbrush & engagement makeup services across Kerala. Book now.",
+};
 
 
 export default function Home() {
@@ -21,8 +32,9 @@ export default function Home() {
 
       <AboutSection />
       <FloatingPortfolio />
-      <WhyChooseSection />
+      <InfinitePortfolio items={commercialPortfolio} />
 
+      <WhyChooseSection />
       <LogoCloud />
       <BridalPortfolioSection />
       <CommercialPortfolioSection />

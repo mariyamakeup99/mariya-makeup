@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { commercialPortfolio } from '@/lib/data';
+import { influencers, celebrities } from '@/lib/commercial-profiles';
 import { ArrowRight } from "lucide-react";
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, Camera, X, CheckCircle2, Star, Users, Briefcase, Sparkles } from 'lucide-react';
@@ -90,128 +91,6 @@ const brands = [
     name: 'Parakkat Jewels',
     description: 'Crafts exquisite, elegant jewellery that blends tradition and modern design, celebrating timeless beauty and fine craftsmanship.',
     logo: '/logos/brands/parakkat_logo_58187224-1151-4bb3-81fa-f51e70cfd1b6.avif'
-  },
-];
-
-const influencers = [
-  {
-    name: 'Amitha Jobin',
-    description: 'Lifestyle and fashion influencer known for winning Best Lifestyle Content Creator and Best Fashion Content Creator Runner-Up titles, inspiring audiences with elegant, engaging content.',
-    image: '/images/commercial/amitha.webp'
-  },
-  {
-    name: 'Alda Davis',
-    description: 'Dentist and fashion designer who creates lifestyle content, inspiring confidence, creative style, beauty, authentic engagement, and professional excellence online.',
-    image: '/images/commercial/alda.webp'
-  },
-  {
-    name: 'Maria Dominic',
-    description: 'Fashion and lifestyle influencer creating stylish, engaging content that inspires confidence, creativity, authentic expression, and modern personal style online.',
-    image: '/images/commercial/mariya-dominic.jpg'
-  },
-  {
-    name: 'Jisma Jiji Kizhakkarakattu',
-    description: 'Lifestyle and fashion influencer sharing creative content that inspires confidence, beauty, authenticity, and stylish personal expression online.',
-    image: '/images/celebrities/jisma.webp'
-  },
-  {
-    name: 'Keep It Stylish by Ammu',
-    description: 'Professional stylist and fashion influencer creating trendy content that inspires confidence, beauty, and modern personal style.',
-    image: '/images/celebrities/ammu.jpg'
-
-  },
-  {
-    name: 'Resh Sebu',
-    description: 'Model and lifestyle influencer creating stylish, engaging content that inspires confidence, beauty, personal style, and authentic expression online.',
-    image: '/images/commercial/resh.webp'
-  },
-  {
-    name: 'Veena Mukundan',
-    description: 'Artist and lifestyle creator sharing inspiring fashion, beauty, and creative content rooted in elegance, confidence, and personal expression.',
-    image: '/images/commercial/veena.jpg'
-  },
-  {
-    name: 'Arya Menon',
-    description: 'Fashion and lifestyle creator inspiring audiences with bold style, authentic content, confident presence, and creative personal expression.',
-    image: '/images/celebrities/arya.jpg'
-  },
-  {
-    name: 'Shwetha Poornima',
-    description: 'Fashion and lifestyle content creator known for her elegant style, confident presence, and strong digital influence.',
-   image: '/images/commercial/shwetha.jpg'
-  },
-  {
-    name: 'Archita (Style With Archita)',
-    description: 'Fashion and style creator known for her chic looks, trend-setting outfits, and engaging social media presence.',
-   image: '/images/commercial/arch.jpg'
-  },
-  {
-    name: 'Sreevidya Mullachery',
-    description: 'Fashion and lifestyle influencer known for her elegant style, creative content, and strong social media presence.',
-    image: '/images/celebrities/sree.jpg'
-  },
-  {
-    name: 'Abhi Bogatinovski',
-    description: 'Lifestyle creator and visual storyteller known for his engaging content, modern style, and vibrant personal brand.',
-    image: '/images/celebrities/abhi.jpg'
-  },
-  {
-    name: 'Kalyaanii R.S',
-    description: 'Fashion and lifestyle influencer known for her chic aesthetics, engaging content, and strong personal style.',
-    image: '/images/commercial/kalyani.jpg'
-  },
-];
-
-const celebrities = [
-  {
-    name: 'Jayasurya',
-    bio: 'Indian actor, producer, and singer with over 100 films. Winner of National and Kerala State Film Awards. Known for versatile roles and upcoming projects like Kathanar - The Wild Sorcerer.',
-    image: '/images/celebrities/jaya.jpg'
-  },
-  {
-    name: 'Aparna Balamurali',
-    bio: 'National Film Award-winning actress and playback singer known for Maheshinte Prathikaaram and Soorarai Pottru.',
-    image: '/images/commercial/bala.jpg'
-  },
-  {
-    name: 'Aparna Das',
-    bio: 'Filmfare Critics Award-winning actress for Dada (2023), known for her work in Malayalam and Tamil cinema including Beast (2022).',
-    image: '/images/celebrities/aparna.jpg'
-  },
-  {
-    name: 'Deepa Thomas',
-    bio: 'Actress and entrepreneur known for Home (2021) and the upcoming Rao Bahadur (2026). Founder of a multi-million dollar textile enterprise.',
-    image: '/images/port2.JPG'
-  },
-  {
-    name: 'Anarkali Marikar',
-    bio: 'Prominent Malayalam film actress known for her debut in Aanandam (2016) and the upcoming film Vala.',
-    image: '/images/celebrities/anarkali.jpg'
-  },
-  {
-    name: 'Arjun Syam Gopan',
-    bio: 'Model, former athlete, and actor. First runner-up of Bigg Boss Malayalam Season 6, known for his debut in Mirage (2025).',
-    image: '/images/commercial/arjun.jpg'
-  },
-  {
-    name: 'Wafa Khadija Rahman',
-    bio: 'Actress, model, and lawyer known for Varane Avashyamund (2020) and Madhuram Jeevamruthabindu (2025).',
-    image: '/images/celebrities/wafa.jpg'
-  },
-  {
-    name: 'Aparna Vinod',
-    bio: 'Actress known for Njan Ninnodu Koodeyund and her role in the Tamil film Kohinoor.',
-    image: '/images/celebrities/aparna-vinod.jpg'
-  },
-  {
-    name: 'Gowry Lekshmi',
-    bio: 'Composer, singer, and music producer known for Godha and her independent music video Thoni.',
-    image: '/images/commercial/gowry.jpg'
-  },
-  {
-    name: 'Mridula Varier',
-    bio: 'South Indian playback singer and Kerala State Award winner (2023), active across Malayalam, Tamil, Telugu, and Kannada cinema.',
-   image: '/images/commercial/mridula.jpg'
   },
 ];
 
@@ -433,14 +312,15 @@ export default function CommercialPortfolioPage() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {influencers.map((influencer, index) => (
-                <div
+                <Link
+                  href={`/portfolio/commercial_makeup_kerala/${influencer.slug}`}
                   key={influencer.name}
                   className="group rounded-2xl sm:rounded-3xl overflow-hidden 
 bg-white dark:bg-card 
 border border-primary/10 
 shadow-sm 
 transition-transform duration-300 
-md:hover:-translate-y-1"
+md:hover:-translate-y-1 block"
                 >
                   {/* Image */}
                   <div className="relative w-full aspect-[4/5] overflow-hidden">
@@ -468,7 +348,7 @@ md:hover:-translate-y-1"
 
 
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
 
@@ -491,14 +371,15 @@ md:hover:-translate-y-1"
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {celebrities.map((celeb, index) => (
 
-                <div
+                <Link
+                  href={`/portfolio/commercial_makeup_kerala/${celeb.slug}`}
                   key={celeb.name}
                   className="group rounded-2xl sm:rounded-3xl overflow-hidden 
 bg-white dark:bg-card 
 border border-primary/10 
 shadow-sm 
 transition-transform duration-300 
-md:hover:-translate-y-1"
+md:hover:-translate-y-1 block"
                 >
 
                   {/* Image (Responsive FIXED) */}
@@ -526,13 +407,13 @@ md:hover:-translate-y-1"
                     </h3>
 
                     <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed line-clamp-3">
-                      {celeb.bio}
+                      {celeb.description}
                     </p>
 
 
 
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

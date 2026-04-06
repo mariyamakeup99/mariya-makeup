@@ -4,19 +4,45 @@ import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { FloatingSocials } from '@/components/floating-socials';
+import { WhatsAppCTA } from '@/components/whatsapp-cta';
 
 export const metadata: Metadata = {
-  title: 'MAKEUP BY MARIYA | Luxury Bridal & Commercial Makeup Artist',
-  description: 'Mariya Makeup Artistry specializes in premium, customized bridal makeup, commercial photoshoots, and large-scale productions across Ernakulam, Thrissur, and Kerala.',
-  keywords: 'Bridal Makeup, Best Makeup Artist in Kerala, Ernakulam Makeup Artist, Commercial Makeup, Mariya Makeup',
+  metadataBase: new URL('https://yourdomain.com'),
+
+  title: {
+    default: 'Makeup by Mariya | Best Makeup Artist in Kochi',
+    template: '%s | Makeup by Mariya',
+  },
+
+  description:
+    'Looking for the best makeup artist in Kochi? Mariya offers luxury bridal, engagement & commercial makeup services across Kerala.',
+
+  keywords: [
+    'makeup artist in kochi',
+    'bridal makeup kochi',
+    'best makeup artist in kerala',
+    'makeup artist ernakulam',
+  ],
+
   openGraph: {
-    title: 'MAKEUP BY MARIYA',
-    description: 'Luxury Bridal & Commercial Makeup Services in Kerala',
+    title: 'Best Makeup Artist in Kochi | Makeup by Mariya',
+    description:
+      'Luxury bridal & commercial makeup artist in Kochi, Kerala. Book your appointment today.',
+    url: 'https://makeupbymariya.com',
     siteName: 'Makeup by Mariya',
+    images: [
+      {
+        url: '/images/hero.webp', 
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_IN',
     type: 'website',
   },
-  icons: {
-    icon: '/favicon.ico',
+
+  alternates: {
+    canonical: '/',
   },
 };
 
@@ -34,12 +60,33 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BeautySalon",
+              name: "Makeup by Mariya",
+              image: "https://makeupbymariya.com/images/hero.webp",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Kochi",
+                addressRegion: "Kerala",
+                addressCountry: "IN",
+              },
+              areaServed: ["Kochi", "Ernakulam", "Thrissur", "Kerala"],
+              url: "https://makeupbymariya.com",
+              telephone: "+918136932606",
+            }),
+          }}
+        />
       </head>
       <body className="font-body bg-background text-foreground antialiased">
         <Header />
         <main>{children}</main>
         <Footer />
         <FloatingSocials />
+        <WhatsAppCTA />
         <Toaster />
       </body>
     </html>
