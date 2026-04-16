@@ -1,33 +1,45 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
   typescript: {
     ignoreBuildErrors: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
-  serverExternalPackages: ['@genkit-ai/google-genai', 'genkit'],
+
+  async redirects() {
+    return [
+      // 🔁 non-www → www
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'makeupbymariya.com',
+          },
+        ],
+        destination: 'https://www.makeupbymariya.com/:path*',
+        permanent: true,
+      },
+
+      // 🔁 http → https (handled by Vercel automatically, but keep safe)
+    ];
+  },
+
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
-        port: '',
-        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'picsum.photos',
-        port: '',
-        pathname: '/**',
       },
     ],
   },
